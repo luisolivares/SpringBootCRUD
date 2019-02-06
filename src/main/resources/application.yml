@@ -1,0 +1,13 @@
+spring:
+  # Spring JDBC configuration
+  datasource:
+    url:      jdbc:mysql://localhost:3306/spring?serverTimezone=UTC
+    username: root
+    password: root
+
+  # Spring Data JPA configuration
+  jpa:
+    hibernate:
+      # To be updated in real production usage!
+      ddl-auto: create-drop
+    show-sql: false
