@@ -21,7 +21,7 @@ import com.example.restfull.exception.ResourceNotFoundException;
 import com.example.restfull.model.Person;
 import com.example.restfull.resources.PersonRepository;
 
-@RestController("restfull")
+@RestController
 public class RestFullController {
 	
 	@Autowired
